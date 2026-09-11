@@ -1,26 +1,46 @@
-FX = 7.10  # RMB per USD
+#!/usr/bin/env python3
+"""Éperdue 成本/定价模型 — 日韩东南亚版。改参数重跑即可。"""
 
-def model(name, retail, cogs_rmb, pack, ship, cac, ret_rate=0.06, pay_pct=0.029, pay_fix=0.30, fixed=1.50):
-    cogs = cogs_rmb / FX
+FX_RMB = 7.10      # RMB per USD
+FX_JPY = 150.0     # JPY per USD
+FX_KRW = 1380.0    # KRW per USD
+
+COGS_RMB = 55.0    # 裸价 ¥50-60 取中值
+
+def unit(retail, cogs_rmb=COGS_RMB, pack=4.0, ship=5.0, cac=25.0,
+         ret_rate=0.06, pay_pct=0.034, pay_fix=0.30, fixed=1.50, label=""):
+    """pay_pct 默认 3.4%：跨境卡 + 本地支付方式通道费普遍高于美国本土 2.9%"""
+    cogs = cogs_rmb / FX_RMB
     pay = retail * pay_pct + pay_fix
-    # returns: lose shipping + packaging + a share of goods, plus refund the retail
     ret_cost = ret_rate * (retail * pay_pct + ship + pack + cogs * 0.35)
     total = cogs + pack + ship + cac + pay + ret_cost + fixed
     gp = retail - total
-    print(f"{name:<22} retail ${retail:>6.0f} | COGS {cogs:5.2f} pack {pack:4.2f} ship {ship:5.2f} CAC {cac:5.2f} pay {pay:5.2f} ret {ret_cost:5.2f} fix {fixed:4.2f} | cost {total:6.2f} | GP ${gp:6.2f} ({gp/retail*100:5.1f}%)")
+    print(f"{label:<26} ${retail:>6.1f} | COGS {cogs:5.2f} pack {pack:4.1f} "
+          f"ship {ship:4.1f} CAC {cac:5.1f} pay {pay:5.2f} ret {ret_cost:4.2f} "
+          f"fix {fixed:4.1f} | cost {total:6.2f} | GP ${gp:6.2f} ({gp/retail*100:5.1f}%)")
     return gp
 
-print("=== 成本固定，测不同零售价 (COGS 100rmb, 品牌包装 $5, 国际专线 $7, CAC $25) ===")
-for r in (49, 69, 89, 109, 129, 149):
-    model(f"零售 ${r}", r, 100, 5.0, 7.0, 25.0)
+print("=== 1. 零售价扫描（日本线：包装$4 运费$5 CAC$25）===")
+for r in (39, 49, 59, 79, 99, 105, 119):
+    unit(r, label=f"零售 ${r}")
 
-print()
-print("=== CAC 敏感性 (零售 $109) ===")
-for c in (10, 20, 30, 45, 60):
-    model(f"CAC ${c}", 109, 100, 5.0, 7.0, c)
+print("\n=== 2. 三个市场（各自真实参数）===")
+unit(105, pack=4.0, ship=4.5,  cac=25.0, label="JP  ¥15,800")
+unit(99,  pack=4.0, ship=5.0,  cac=30.0, label="KR  ₩137,000")
+unit(59,  pack=2.5, ship=6.0,  cac=10.0, ret_rate=0.08, label="SEA $59 (DTC)")
+unit(59,  pack=2.5, ship=6.0,  cac=4.0,  ret_rate=0.10,
+     pay_pct=0.12, pay_fix=0.0, label="SEA $59 (Shopee抽佣~12%)")
 
-print()
-print("=== 三条路线 ===")
-model("A 中端走量 $49", 49, 100, 2.5, 5.0, 12.0)
-model("B 中高端 $109", 109, 100, 5.0, 7.0, 25.0)
-model("C 高端限量 $149", 149, 130, 9.0, 9.0, 30.0)
+print("\n=== 3. CAC 敏感性（零售 $105）===")
+for c in (10, 20, 30, 40, 55):
+    unit(105, ship=4.5, cac=c, label=f"CAC ${c}")
+
+print("\n=== 4. 日本免税天花板 ===")
+ceil_jpy = 10000 / 0.6
+print(f"  个人进口完税价 = 零售 x 60%；完税价 <= ¥10,000 免关税+消费税")
+print(f"  => 零售价上限 ¥{ceil_jpy:,.0f}  (约 ${ceil_jpy/FX_JPY:.0f} USD)")
+print(f"  建议定价 ¥15,800 = ${15800/FX_JPY:.0f}，完税价 ¥{15800*0.6:,.0f} ✅ 安全裕度 5%")
+
+print("\n=== 5. 韩国免税天花板 ===")
+print(f"  非美产地 de minimis = $150（不含运费）")
+print(f"  建议定价 ₩137,000 = ${137000/FX_KRW:.0f} ✅ 远低于门槛")
