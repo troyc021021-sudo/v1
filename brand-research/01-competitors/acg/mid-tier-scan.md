@@ -1,5 +1,8 @@
 # 二次元内衣中端扫描（$30–60）— 我们的直接价格竞争者
 
+> ⚠️ **v0.2 修正：本文档描述的是邻接品类（cosplay 内衣），不是我们的竞争对手。**
+> 仅「女仆系列」与我们题材重叠。定价参照已移至 `01-competitors/00-landscape-map.md` v0.2。
+
 | 品牌 | 价格带 | 特征 | 威胁度 |
 |---|---|---|---|
 | [Uwowo Cosplay](https://uwowocosplay.com/collections/all/lingerie) | $30–60 | 1000+ SKU，原神/星铁/鸣潮等游戏 IP，每周上新，S–3XL，全球发货 | 中。SKU 广度碾压，但无品牌叙事 |

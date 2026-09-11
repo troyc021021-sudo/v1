@@ -1,6 +1,10 @@
 # 目标用户画像
 
-> 状态：v0.1 假设稿。阶段 3 用真实账号数据校验后修订。
+> 状态：v0.2。阶段 3 用真实账号数据校验后修订。
+>
+> ⚠️ v0.2 修正：品类是「可爱高级性感内衣」而非 cosplay 内衣，
+> 因此 B 类的定义从「weeb / cosplayer」收窄为「被东亚少女美学吸引的女性」——
+> cosplayer 是其中一部分，不是全部。
 
 ## 优先级排序
 
@@ -33,10 +37,10 @@ A 和 B 加起来应占首年营收 80%。
 |---|---|
 | 年龄 | 20–30 |
 | 地域 | 美国（加州/纽约/德州）、英国、德国、法国、澳洲 |
-| 自我认同 | weeb / anime fan / lolita / alt-girl / e-girl / cosplayer |
+| 自我认同 | 被东亚少女美学吸引的女性：coquette / soft girl / lolita / J-fashion / alt-girl（cosplayer 是子集，非全部） |
 | 消费动机 | **角色代入 + 社群身份**。她们买的是"我属于这个圈子"的凭证 |
 | 信息渠道 | Instagram、TikTok、Pinterest、Reddit（r/lolita, r/JFashion, r/femalefashionadvice）、Discord |
-| 关键词 | `#jfashion` `#lolitafashion` `#altfashion` `#egirl` `#cosplaylingerie` `#kawaiifashion` |
+| 关键词 | `#coquette` `#softgirlaesthetic` `#jfashion` `#lolitafashion` `#lingerieaddict` `#kawaiifashion` |
 | 价格接受度 | **最高**。习惯为 J-fashion 单品付 $100–300（Lolita 圈一条裙子 $200+ 是常态） |
 | **决策关键点** | **尺码包容性**。欧美体型跨度大，只做亚洲码 = 大量差评。需要到 XL/2XL |
 | **雷点** | 尺码不全、发货 30 天、"looks nothing like the photo" |

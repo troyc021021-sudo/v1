@@ -1,132 +1,141 @@
 # 竞品版图与价格阶梯
 
-> v0.1 / 2026-09。权重：日本 50% · 韩国 25% · 欧美 25%。
-> ⚠️ 本文档的价格为公开页面观察值，未经一手核价，用于定位判断而非财务测算。
+> **v0.2 / 2026-09 — 重大修订。**
+> v0.1 把品类误判为「cosplay / 二次元内衣」（由三张女仆产品图推断）。
+> 正确品类是 **「可爱 · 高级 · 性感内衣」**——女仆是其中一个系列，不是品类定义。
+> 这个修正把价格天花板**抬高了**，同时把约束条件从「品牌 IP」换成了「产品力」。
+>
+> 权重：日本 50% · 韩国 25% · 欧美 25%。价格为公开页面观察值，未经一手核价。
 
-## 一、这张图是整个调研最重要的产出
+## 一、正确的价格阶梯
 
 ```
-      我们目前的位置（¥55 裸价 = 同一批工厂）
-                        ↓
-  ¥2,000 ────────── ¥8,000 ────────── ¥15,000 ────────── ¥28,000
-  ├──────────┬───────────┬───────────┬───────────┬──────────┤
-  │  量産型   │  中端     │  角色联名  │   ???     │  国産高级 │
-  │  日常内衣 │  二次元   │  (有IP)   │  空白带    │  内衣    │
-  │          │  内衣     │           │           │          │
-  │ DRW      │ MOEFLAVOR │ Nyacos    │  ← 我们   │ ランジェリーク│
-  │ ¥1,980   │ $25-85    │ ¥10,499   │  想站这里  │ ¥24,200/套│
-  │ -2,530   │ Uwowo     │ -14,899   │           │ マイミア   │
-  │          │ Korura    │ (Mario/   │           │ ¥27,720/套│
-  │          │ $30-60    │  Pokémon) │           │          │
-  └──────────┴───────────┴───────────┴───────────┴──────────┘
+ ¥2,000 ──── ¥6,000 ──── ¥12,000 ──── ¥18,000 ──── ¥28,000
+   │           │            │            │            │
+ 量産型日常   中端可爱     设计师        我们         国産高级
+   内衣      性感内衣    可爱性感内衣    ↓           内衣
+   │           │            │        ¥15,800        │
+  DRW      PEACH JOHN    RAVIJOUR                ランジェリーク
+ ¥1,980    aimerfeel    SALON by PJ              ¥24,200/套
+ -2,530    Une nana     Salute(Wacoal)           マイミア
+           /件 ¥2-4k     /套 ¥8-18k               ¥27,720/套
 ```
 
-### 三个必须面对的事实
+**¥15,800 在这条正确的阶梯上是舒服的。** 它低于国産高级（¥24,000+），
+高于中端量贩，落在「设计师可爱性感内衣」带的上沿——这个位置是有人烟的，不是空白带。
 
-**① 我们想站的价位带（¥15,800 / $105）目前是空的。**
-空白可能意味着机会，也可能意味着"空着是有原因的"。下面两条说明大概率是后者——**暂时**。
+### 对照：欧美独立设计师内衣
 
-**② 在日本，¥10,000+ 的角色内衣是存在的，但价格由「授权 IP」撑着。**
-Nyacos 的角色联名款卖 ¥10,499–14,899——买家付的是 Mario / Pokémon 的授权溢价，不是布料。
-**我们没有授权 IP。** 所以这个价格我们现在拿不到——除非我们**自己就是 IP**。
-这恰好就是 `00-brief/01-positioning.md` 定的方向，但它意味着：
-> **角色 IP 必须先建立，价格才站得住。顺序不能反。**
-
-**③ 在欧美，二次元内衣的价格天花板大约在 $85。**
-MOEFLAVOR 是这个赛道跑得最好的独立品牌（Trustpilot 178 条评价 5 星），
-主力区间 **$25–85**（Cyber Bunny $55 / Harlot $75 / Sorceress $85），
-顶格的 MEKA Maid 才摸到 $100。
-我们定 $105 意味着**要做这个品类全球最贵的产品**——而我们的货值（¥55 裸价）
-和 $30–60 档的 Uwowo、Korura 是同一批供应链。**产品端撑不住这个价。**
-
----
-
-## 二、价格阶梯明细
-
-| 档位 | 代表 | 价格 | 他们靠什么支撑价格 | 我们的差距 |
-|---|---|---|---|---|
-| 商品化 | Amazon / AliExpress / YOMORIO | $5–30 | 无，纯价格 | 不参与 |
-| 日本量産型日常 | [DRW](https://d-rw.com/page/ryosan_zirai) | ¥1,980–2,530/件 | 量大、上新快、贴合亚文化标签 | 不参与 |
-| 二次元中端 | Uwowo / Korura / Kawaii Lingerie | $30–60 | SKU 广度、尺码 S–3XL、IP 角色还原 | 我们的直接价格竞争者 |
-| **二次元高端** | **[MOEFLAVOR](https://moeflavor.com/)** | **$25–85（顶 $100）** | **原创设计 + 包容尺码 + 口碑 + 快物流** | **← 我们的真正对标** |
-| 角色联名 | Nyacos | ¥10,499–14,899 | **授权 IP** | 我们没有授权 |
-| 日本高端内衣 | [ランジェリーク](https://column.kokyunavi.jp/fashion-accessories/kokyu-lingerie-domestic-production/) / マイミア | ¥24,200–27,720/套 | 日本产工艺、版型、面料、几十年品牌 | 完全不是一个赛道 |
-| 日本设计感性感内衣 | [RAVIJOUR](https://ravijour.com/) | 中高（2004 创立，20–30 代女性） | 「Living Sexy - Just be yourself」自我取悦叙事 + 刺绣蕾丝 | **文案叙事最值得学** |
-
----
-
-## 三、头号对标：MOEFLAVOR
-
-**为什么是它**：同品类、同受众、独立站 DTC、跑通了，而且**它就是我们想成为的样子的上一个版本**。
-
-| 维度 | 它的做法 | 对我们的意义 |
+| 品牌 | 单品 | 成套 |
 |---|---|---|
-| 定位 | "Japanese-Inspired Lingerie & Anime Cosplay Fantasywear" | 用 **Japanese-Inspired** 而非 Japanese——不假装是日本品牌，聪明 |
-| 价格 | $25–85 主力，顶格 $100 | **这是品类天花板的实测值** |
-| 尺码 | petite 到 plus 全覆盖，上下装可分开选码 | **这是它最强的护城河**，评价里反复被夸 |
-| 面料 | 弹力材质（faux latex、poly-spandex），主打"全天可穿" | 强调**舒适**而非性感——和 RAVIJOUR 同一个叙事方向 |
-| 口碑 | Trustpilot 178 评价 5 星，"true to size" 被高频提及 | 尺码准确 = 这个品类的第一信任货币 |
-| 渠道 | 独立站 + Amazon 店 + 自有 App | 独立站不是唯一入口 |
-| **弱点** | **退货流程被投诉"excruciating and unfair"** | **← 这是我们可以直接切入的缺口** |
+| [Toru & Naoko](https://www.toruandnaoko.com/)（独立设计师，小批量/接单生产） | $45–92 | **$90–180** |
+| 高端款（crystal top / slip dress） | $146–154 | — |
+| Fleur du Mal（高端标杆） | — | $200+ |
 
-### 从它身上抄三件、避一件
-
-✅ **抄**：包容尺码（不是"亚洲均码"）；"全天可穿的舒适"叙事；把尺码准确度做成卖点
-✅ **抄**：原创设计而非还原具体动漫角色——避开版权，建立自己的辨识度
-❌ **避**：退货体验。把"无忧换码"做成我们的显性承诺（内衣类可做"换不退"，卫生合规且成本可控）
+$105（¥15,800）落在 Toru & Naoko 的成套区间内。**国际对标同样成立。**
 
 ---
 
-## 四、韩国线（本轮结论：数据不足，且不改变优先级）
+## 二、v0.1 的错误，以及修正后什么变了
 
-公开搜索能拿到的多是综合购物平台（[비너스](https://www.venus-eshop.co.kr/)、[란제리아](https://www.lingeriea.co.kr/)、
-[핫핑](https://hotping.co.kr/)、[러블리감성](https://lovelyfeel.com/)）和日系品牌的韩国官网
-（[aimerfeel 에메필코리아](https://www.aimerfeel.kr/)），**没有找到对标级的韩国原创角色内衣品牌**。
+| | v0.1（误判为 cosplay 内衣） | v0.2（正确：可爱高级性感内衣） |
+|---|---|---|
+| 头号对标 | MOEFLAVOR（$25–85） | **RAVIJOUR** + PEACH JOHN SALON + Toru & Naoko |
+| 价格天花板 | $85 | **¥24,000（国産高级）**，我们的空间大得多 |
+| 结论 | ¥15,800 拿不到，降到 ¥12,800 | **¥15,800 站得住** |
+| 主要约束 | 「需要先有角色 IP」 | **「需要真实的产品力」** ← 更硬 |
 
-两种解释，需要阶段 3 用 IG/KOC 数据验证：
-- (a) 韩国这个细分确实不成熟 → 是机会
-- (b) 韩国用户在这个品类上本来就买日系/中系，不存在本土品牌 → 是渠道问题不是品牌问题
+### 为什么约束变硬了
 
-无论哪种，都**不改变"韩国放在日本之后"**的判断（PCCC + 支付通道的工程量是独立于此的）。
+Cosplay 内衣的客户买的是**造型**，对罩杯结构、面料手感、版型贴合宽容度高。
+**可爱高级性感内衣的客户不宽容。** 她们会在收货五分钟内判断：
+钢圈压不压、罩杯是否空杯、蕾丝扎不扎、肩带调节滑不滑、缝边毛不毛。
+
+**¥55 裸价做不出这个层级的产品。** 这是修正后最重要的一句话。
+
+MOEFLAVOR / Uwowo / Korura 降级为**邻接品类**——只有女仆系列与我们重叠，
+不再是定价参照。它们的客户和我们的客户不是同一批人。
 
 ---
 
-## 五、这一轮对定价的修正建议
+## 三、修正后的对标品牌
 
-### ¥15,800 现在拿不到，建议改成两段式
+### 🥇 RAVIJOUR（ラヴィジュール）— 现在是头号对标，不只是叙事对标
 
-| 阶段 | 定价 | 货值 | 毛利率 | 前提 |
+| | |
+|---|---|
+| 创立 | 2004，日本 |
+| 概念 | **「Living Sexy - Just be yourself」** |
+| 客群 | **20 代 – 30 代前半女性**（与我们完全重合） |
+| 产品 | 高设计性，精细刺绣与蕾丝，强调让身体线条更美的版型 |
+| 渠道 | 官网 + ZOZOTOWN + 乐天 + SHOPLIST |
+
+它就是「可爱 + 高级 + 性感」这三个词在日本市场的现成答案，而且跑了 20 年。
+**我们的增量 = 同样的定位 + 更强的视觉世界观 + 成套/系列叙事。**
+详见 `01-competitors/jp/ravijour.md`。
+
+### 🥈 PEACH JOHN / SALON by PEACH JOHN
+
+Wacoal 旗下，面向 10–20 代女性的邮购内衣起家（1994 创立）。
+`SALON by PEACH JOHN` 是其**上探线**——这正是我们要抢的那个心智位置：
+「比量贩可爱内衣更高级，但比国産高级内衣更年轻」。
+
+→ **它是我们在日本最直接的竞争者，也是最值得逐页拆解的对象。**（阶段 3 补细节）
+
+### 🥉 国産高级（ランジェリーク ¥24,200/套 · マイミア ¥27,720/套 · Salute）
+
+不是竞争对手，是**天花板参照**。靠日本本土工艺、版型、数十年品牌积累。
+我们不进入这条赛道，也不在文案里暗示自己属于这一层。
+详见 `01-competitors/jp/premium-lingerie-benchmark.md`。
+
+### 邻接品类（不再是定价参照）
+
+MOEFLAVOR（$25–85）· Uwowo · Korura · YOMORIO —— 详见 `01-competitors/west/` 与 `acg/`。
+**仍有一件事值得抄**：MOEFLAVOR 的包容尺码做得最好，评论区高频词是 "true to size"；
+**仍有一个缺口值得切**：它的退货流程被投诉 "excruciating and unfair"。
+
+---
+
+## 四、修正后的定价结论
+
+### 建议：**首发即 ¥15,800，但货值必须同步升到 ¥90**
+
+| 方案 | 货值 | 售价 | 毛利率 | 判定 |
 |---|---|---|---|---|
-| **S1 首发（0–6 月）** | **¥12,800 / 约 $85** | ¥55 | **45.2%** | 卡在 MOEFLAVOR 天花板（$85）**同一点**上，宣告同级 |
-| S2 爬坡（6–12 月） | ¥13,800 / $92 | ¥55 | 48.9% | 角色 IP 有粉丝、有 UGC、有复购数据后 |
-| **S3 目标（12 月+）** | **¥15,800 / $105** | **升级到 ¥120** | **45.0%** | **必须同时升级货值**，否则是空中楼阁 |
+| 维持现状 | ¥55 | ¥15,800 | 53.9% | ❌ **毛利最高，但产品撑不住定位**——差评风险 |
+| **推荐** | **¥90** | **¥15,800** | **49.1%** | ✅ **产品力够到设计师带，毛利仍健康** |
+| 保守 | ¥90 | ¥12,800 | 38.0% | ⚠️ 毛利偏薄，且低估了自己的位置 |
+| 激进 | ¥120 | ¥15,800 | 45.0% | ✅ 若供应链允许，这是最稳的 |
 
-**关键点：S3 的 ¥15,800 不是靠涨价拿到的，是靠"IP + 货值"一起拿到的。**
-用 ¥55 的货卖 ¥15,800，第一批客户会在开箱时发现落差，然后写进评论区。
+**放弃 v0.1 的"两段式爬坡"。** 那是基于 cosplay 天花板的判断，前提已不成立。
+而且先低价上市再涨价会伤害第一批客户——**一步到位定在 ¥15,800 更干净**。
 
-**日本免税线（零售 ≤ ¥16,667）依然是硬上限**——S3 的 ¥15,800 刚好顶在线内，这一点没变。
+用 ¥55 的货卖 ¥15,800 毛利虽然最高（53.9%），但在这个品类里，
+省下的 ¥35 会以差评和退货的形式加倍还回来。
 
-### 限量款怎么办
+### ⚠️ 限量款不能定 ¥19,800
 
-原计划 ¥22,800 的限量款，**建议改为 ¥19,800 且必须升级货值到 ¥180**（毛利 48.1%）。
-用 ¥55 的货做 ¥22,800 的限量款，是给品牌埋雷。
+日本免税线是**完税价 ¥10,000 = 零售 ¥16,667**。
+- ¥15,800 → 完税价 ¥9,480 ✅
+- **¥19,800 → 完税价 ¥11,880 ❌ 超线**，日本客户收货时被追缴关税 + 10% 消费税
+
+**限量款改为 ¥16,500 以内**，或定 ¥19,800 但我们做 **DDP 预缴税**（吃掉约 10% 毛利换口碑）。
 
 ---
 
-## 六、下一步（阶段 3）要验证的
+## 五、阶段 3 要补的
 
-- [ ] 日本 IG 上有没有已经在做"原创角色 + 内衣"的小品牌？（搜索层看不到，需要看 IG/X）
-- [ ] MOEFLAVOR 的 IG 内容策略和粉丝画像
-- [ ] 韩国这个细分到底是空白还是不存在
-- [ ] ¥12,800 在日本 20–30 代女性的心理价位上是什么感觉（需要 KOC 侧面验证）
+- [ ] **SALON by PEACH JOHN 逐页拆解**（定价、系列命名、详情页结构、尺码表写法）
+- [ ] RAVIJOUR 的实际成套价（本轮只拿到定位，没拿到价格表）
+- [ ] 韩国：换关键词重搜——上一轮用 cosplay 语境搜，方向错了
+- [ ] 供应链：¥90–120 货值能做到什么规格？（需要你去问工厂）
 
 ## 资料来源
 
-- [DRW（ドロー）量産系女子＆地雷系女子ランジェリー特集](https://d-rw.com/page/ryosan_zirai)
-- [MOEFLAVOR 官网](https://moeflavor.com/) / [Lingerie 系列](https://moeflavor.com/collections/lingerie) / [Trustpilot 评价](https://www.trustpilot.com/review/moeflavor.com)
-- [Uwowo Cosplay](https://uwowocosplay.com/collections/all/lingerie) · [Korura Club](https://www.koruraclub.com/) · [YOMORIO](https://yomorio.com/) · [Kawaii Lingerie](https://kawaiilingerie.com/)
-- [国産高級ランジェリーおすすめ11選（高級ナビ）](https://column.kokyunavi.jp/fashion-accessories/kokyu-lingerie-domestic-production/)
-- [RAVIJOUR ブランドコンセプト](https://ravijour.com/lp/bc_ravijour.php) · [ラヴィジュールの年齢層・口コミ](https://www.ladieslingerie.info/ravijour-brand-review-age-reviews/)
-- [メイド服 ランジェリー（nyacos）](https://www.nyacos.jp/sexy-costumes_1167c.html)
-- [BODYLINE / LunaBelle Maid Cosplay](https://bodylinetokyo.co.jp/en-int/collections/maid_suits)
-- 韩国：[비너스](https://www.venus-eshop.co.kr/) · [란제리아](https://www.lingeriea.co.kr/) · [핫핑](https://hotping.co.kr/) · [aimerfeel 코리아](https://www.aimerfeel.kr/)
+- [RAVIJOUR ブランドコンセプト](https://ravijour.com/lp/bc_ravijour.php) · [年齢層・口コミ](https://www.ladieslingerie.info/ravijour-brand-review-age-reviews/) · [ZOZOTOWN](https://zozo.jp/shop/ravijour/)
+- [PEACH JOHN 公式 ブラ＆ショーツセット](https://www.peachjohn.co.jp/shop/r/r1050/) · [SALON by PEACH JOHN](https://www.peachjohn.co.jp/shop/e/eal-sl-new/) · [Peach John (Wikipedia)](https://en.wikipedia.org/wiki/Peach_John)
+- [国産高級ランジェリーおすすめ11選（高級ナビ）](https://column.kokyunavi.jp/fashion-accessories/kokyu-lingerie-domestic-production/) · [高級下着まとめ（Precious）](https://precious.jp/articles/-/17373)
+- [Toru & Naoko](https://www.toruandnaoko.com/) · [NOT JUST A LABEL 品牌页](https://notjustalabel.com/toru-naoko)
+- [DRW 量産系・地雷系ランジェリー特集](https://d-rw.com/page/ryosan_zirai)
+- [MOEFLAVOR](https://moeflavor.com/) · [Trustpilot](https://www.trustpilot.com/review/moeflavor.com)
+- [Japan Customs — 10,000 円以下の免税](https://www.customs.go.jp/english/c-answer_e/imtsukan/1006_e.htm)
